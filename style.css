@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#movingImage {
+    position: relative;
+    left: 0;
+    transition: left 1s ease; 
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #DDE6ED;
+}
+
+
+header {
+    background-color: #27374D;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    padding: 10px;
+    color: white;
+}
+
+header p {
+    color: white;
+}
+
+nav {
+    background-color: #526D82;
+    position: sticky;
+    margin-top: 10px;
+    top: 0;
+    z-index: 1;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+li {
+    margin-right: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #27374D;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px; 
+    margin-top: 30px;
+}
+
+
+.post-column {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.post-column article {
+    background-color: #F9F9F9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.post-column article:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.post-column img {
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.post-column h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.post-column p {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+aside {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+aside h1 {
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+aside table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+aside th {
+    padding-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #27374D;
+    color: white;
+    margin-top: 5px;
+}
